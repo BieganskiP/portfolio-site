@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         gray: "#797596ff",
         green: "#a2d729ff",
-        pink: "#ff006eff",
+        red: "#C02A2E",
         darkBlue: "#060b19ff",
         black: "#050517ff",
         white: "#c7c7c7",
@@ -19,7 +19,8 @@ const config: Config = {
       },
       backgroundImage: {
         "conic-to-t": "conic-gradient(at top, var(--tw-gradient-stops))",
-        "conic-colors": "conic-gradient(var(--tw-gradient-stops))", 
+        "conic-colors": "conic-gradient(var(--tw-gradient-stops))",
+        "text-gradient": "linear-gradient(45deg, #ececec, red)",
       },
       keyframes: {
         spin: {

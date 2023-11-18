@@ -1,18 +1,18 @@
 [
   {
-    "link": "Home",
+    "link": "Strona Główna",
     "url": "/"
   },
   {
-    "link": "About",
-    "url": "/about"
+    "link": "O nas",
+    "url": "/o-nas"
   },
   {
-    "link": "Portfolio",
-    "url": "/portfolio"
+    "link": "Nasze projekty",
+    "url": "/projekty"
   },
   {
-    "link": "Contact",
-    "url": "/contact"
+    "link": "Kontakt",
+    "url": "/kontakt"
   }
 ]

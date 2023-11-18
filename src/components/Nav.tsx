@@ -12,8 +12,8 @@ export default function Nav() {
         return (
           <li
             key={index}
-            className={`m-3 text-xl hover:text-pink ${
-              isActive ? "text-pink" : ""
+            className={`m-3 text-xl font-bold hover:text-red tracking-wide ${
+              isActive ? "text-red" : ""
             }`}
           >
             <Link href={linkItem.url}>{linkItem.link}</Link>

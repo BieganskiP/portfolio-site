@@ -14,20 +14,20 @@ export default function Hamburger({ isOpen, setIsOpen }: HamburgerProps) {
 
   return (
     <div
-      className="flex justify-center items-center h-[50px] w-[50px] cursor-pointer z-20 sticky "
+      className="flex justify-center items-center h-[40px] w-[40px] cursor-pointer z-20 sticky bg-red rounded-full"
       onClick={() => setIsOpen(!isOpen)}
     >
       <span
-        className={`absolute w-7 h-1 bg-white rounded-sm transform transition-transform duration-500 ${
+        className={`absolute w-[22px] h-[3px] bg-white transform transition-transform duration-500 ${
           isOpen ? "rotate-45" : "translate-y-2"
         }`}
       ></span>
       <animated.span
-        className="absolute w-7 h-1 bg-white rounded-sm"
+        className="absolute w-[22px] h-[3px] bg-white"
         style={middleLineStyle}
       ></animated.span>
       <span
-        className={`absolute w-7 h-1 bg-white rounded-sm transform transition-transform duration-500 ${
+        className={`absolute w-[22px] h-[3px] bg-white transform transition-transform duration-500 ${
           isOpen ? "-rotate-45" : "-translate-y-2"
         }`}
       ></span>

@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"object": {
+		"uuid": "31833ff7-9c19-4908-b741-2764f4035796",
+		"type": "PerspectiveCamera",
+		"name": "Camera",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,0.9995120760870788,-0.031234752377721213,0,0,0.031234752377721213,0.9995120760870788,0,0,0,35,1],
+		"up": [0,1,0],
+		"fov": 50,
+		"zoom": 1,
+		"near": 0.01,
+		"far": 1000,
+		"focus": 10,
+		"aspect": 1.7510431154381085,
+		"filmGauge": 35,
+		"filmOffset": 0
+	}
+}
