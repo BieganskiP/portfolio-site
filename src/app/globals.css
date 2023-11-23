@@ -19,3 +19,7 @@ body {
   color: var(--white);
   background: var(--black);
 }
+
+.diagonal-bg {
+  background-size: 100% calc(100% + 150px); 
+}

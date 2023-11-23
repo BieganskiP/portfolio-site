@@ -18,9 +18,8 @@ const config: Config = {
         borderColor: "#ffffff80",
       },
       backgroundImage: {
-        "conic-to-t": "conic-gradient(at top, var(--tw-gradient-stops))",
-        "conic-colors": "conic-gradient(var(--tw-gradient-stops))",
-        "text-gradient": "linear-gradient(45deg, #ececec, red)",
+        "diagonal-stripes":
+          "linear-gradient(135deg, #C02A2E 0%, #C02A2E 33%, #050517ff 33%, #050517ff 66%, #C02A2E 66%, #C02A2E 100%)",
       },
       keyframes: {
         spin: {
@@ -30,6 +29,10 @@ const config: Config = {
       },
       animation: {
         "spin-slow": "spin 3s linear infinite",
+      },
+      spacing: {
+        "1/3": "33.333333%",
+        "2/3": "66.666667%",
       },
     },
   },

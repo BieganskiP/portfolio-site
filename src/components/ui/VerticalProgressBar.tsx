@@ -22,7 +22,7 @@ const VerticalProgressBar = () => {
 
   return (
     <div
-      className="fixed top-0 left-0 z-50 w-2.5 bg-red rounded-md"
+      className="fixed top-0 left-0 z-50 w-2.5 bg-white shadow-md rounded-md"
       style={{ height: `${progress}%` }}
     ></div>
   );
